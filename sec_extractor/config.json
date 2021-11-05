@@ -1,0 +1,40 @@
+{"network_drives": 
+	{
+	"index_files": "insert_folder_location_to_hold_SEC_index_files",
+	"database": "insert_folder_location_to_hold_sqlite_database",
+	"log": "insert_folder_location_to_hold_log_file",
+	"prospectuses": "insert_folder_location_to_hold_prospectus_files",
+	"zip_prospectuses": "insert_folder_location_to_hold_zipped_prospectus_files"
+	},
+"http_session":
+	{
+	"proxy_domain": "insert_proxy_domain",
+	"user_agent": "insert_user_agent_email_address"
+	},
+"filings": ["N-Q", "N-Q/A", "NPORT-P", "NPORT-P/A"],
+"index":
+	{
+	"start_year": "2011"
+	},
+"prospectus":
+	{
+	"start_year": "2011"
+	},
+"ciks":
+	["cik"],
+"series_to_index":
+	{
+	"series_id": ["Index", "Company"]
+	},
+"index_mapping":
+	{
+	"500 Index": ["Standard & Poor's 500 Index"],
+	"Total Stock Market Index": ["CRSP US Total Market Index", "Dow Jones U.S. Total Stock Market Index", "Russell 3000 Index", "Fidelity U.S. Total Investable Market Index", "Standard & Poor's Composite 1500 Index", "Wilshire 5000"],
+	"Extended or Completion Index": ["Standard & Poor's Completion Index", "Dow Jones U.S. Completion Total Stock Market Index", "Fidelity U.S. Extended Investable Market Index", "Russell Small Cap Completeness Index"],
+	"Mid Cap Index": ["Russell Midcap Index", "CRSP US Mid Cap Index", "Standard & Poor's MidCap 400 Index"],
+	"Small Cap Index": ["Russell 2000 Index", "CRSP US Small Cap Index", "Standard & Poor's SmallCap 600 Index"],
+	"Total International Stock Index": ["MSCI ACWI ex-U.S. Index", "FTSE Global All Cap ex US Index"],
+	"Total Bond Index": ["Bloomberg Barclays U.S. Aggregate Bond Index"],
+	"Developed/International Index": ["MSCI EAFE", "FTSE Developed All Cap ex US Index"]
+	}
+}
